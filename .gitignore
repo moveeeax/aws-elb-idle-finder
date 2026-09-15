@@ -1,0 +1,17 @@
+# Built binary (root-anchored so it never matches cmd/aws-elb-idle-finder/ source)
+/aws-elb-idle-finder
+/elbif
+
+# Go build/test artifacts
+*.test
+*.out
+/dist/
+/coverage.txt
+
+# Keep fixtures tracked even if a glob above would match
+!testdata/**
+
+# Editor/OS noise
+.DS_Store
+.idea/
+.vscode/
