@@ -1,7 +1,7 @@
 # aws-elb-idle-finder
 
 [![ci](https://github.com/moveeeax/aws-elb-idle-finder/actions/workflows/ci.yml/badge.svg)](https://github.com/moveeeax/aws-elb-idle-finder/actions/workflows/ci.yml)
-![Go](https://img.shields.io/badge/go-1.24+-00ADD8?logo=go)
+![Go](https://img.shields.io/badge/go-1.26+-00ADD8?logo=go)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 Scan a region's load balancers (ALB / NLB / classic ELB) and flag the **idle**
