@@ -107,3 +107,7 @@ classifier and report logic are tested against an in-memory mock.
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+---
+
+**Archived on 2026-11-05.** merge into aws-orphan-finder: idle load balancers are one more orphan category; orphan-finder already has the multi-region, pricing, JSON/CSV and partial-scan safety this repo lacks. The CloudWatch-traffic classification (IDLE vs UNKNOWN) is the part worth porting. Trusted Advisor's idle-LB check needs Business Support, so there is still a reason to have it. The scope moves to [aws-orphan-finder](https://github.com/moveeeax/aws-orphan-finder/issues/7).
